@@ -9,3 +9,36 @@
 ## occurences of substring
 
 * the user enters a string and a substring. You have to print the number of times that the substring occurs in the given string. String traversal will take place from left to right, not from right to left.
+# exec function
+* Input Format
+
+The first line contains an integer,n , denoting the number of commands.
+Each line  i of the n subsequent lines contains one of the commands described above.
+
+* Constraints
+
+The elements added to the list must be integers.
+* Output Format
+
+For each command of type print, print the list on a new line.
+
+* Sample Input 0
+
+12
+insert 0 5
+insert 1 10
+insert 0 6
+print
+remove 6
+append 9
+append 1
+sort
+print
+pop
+reverse
+print
+* Sample Output 0
+
+[6, 5, 10]
+[1, 5, 9, 10]
+[9, 5, 1]
