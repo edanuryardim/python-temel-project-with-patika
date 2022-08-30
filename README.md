@@ -44,6 +44,8 @@ print
 [9, 5, 1]
 
 ## Closures and Decorators
+Let's dive into decorators! You are given  mobile numbers. Sort them in ascending order then print them in the standard format.
+The given mobile numbers may have +91, 91  or 0  written before the actual 10 digit number. Alternatively, there may not be any prefix at all.
 * Sample Input
  3
 07895462130
